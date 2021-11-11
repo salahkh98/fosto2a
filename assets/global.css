@@ -1,17 +1,75 @@
+header{
+  position: relative;
+}
+
+
 nav{
   margin-bottom: 40px;
   margin-top: 40px;
-  margin-left: 400px;
+  margin-left: 900px;
   font-size: 50px;
+}
+
+nav li{
+  transition:all 1s;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+nav span{
+  width: 150px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(206, 206, 206, 0.205);
+}
+
+nav span:hover{
+  background-color: rgba(0, 0, 0, 0.664);
+  color: white;
+  transition:all 0.5s;
+}
+
+
+
+.header__inline-menu a span{
+  font-size: 20px;
+}
+
+.banner__box{
+  margin-left: 300px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.button--primary{
+  border-radius: 30px;
+}
+
+
+
+.price__regular{
+  color: red;
+}
+
+.full-unstyled-link{
+  color: red;
+}
+
+.h5{
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width : 832px){
+
+  .banner__box{
+    width: 200px;
+    margin-top: -240px;
+    margin-right: 50px;
+    
+  }
   
 }
-nav li{
-  background-color: white;
-  padding: 5px 40px ;
-  transition:all 1s;
 
-}
-
-nav li:hover{
-  background-color: violet;
-}
